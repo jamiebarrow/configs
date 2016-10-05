@@ -4,5 +4,6 @@ alias dir='ls -l'
 alias ..='cd ..'
 alias l='ls -al'
 
-alias gs='git status'
+alias gl='git log'
 alias gpr='git pull --rebase'
+alias gs='git status'
