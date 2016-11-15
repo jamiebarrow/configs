@@ -5,5 +5,7 @@ alias ..='cd ..'
 alias l='ls -al'
 
 alias gl='git log'
-alias gpr='git pull --rebase'
 alias gs='git status'
+alias gr='git reset'
+alias grh='git reset --hard'
+alias gpr='git pull --rebase'
