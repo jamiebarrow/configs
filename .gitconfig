@@ -1,6 +1,8 @@
 [alias]
+    co = checkout
     dt = difftool -y
     dtm = difftool -y --diff-filter=M
     dts = difftool -y --cached
     dtsm = difftool -y --cached --diff-filter=M
     mt = mergetool -y
+    undo = reset HEAD~1
