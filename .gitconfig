@@ -1,3 +1,6 @@
+[user]
+    name = James Barrow
+
 [alias]
     co = checkout
     dt = difftool -y
@@ -6,3 +9,25 @@
     dtsm = difftool -y --cached --diff-filter=M
     mt = mergetool -y
     undo = reset HEAD~1
+
+[core]
+    editor = vim
+    autocrlf = True
+
+[diff]
+    tool = winmerge
+    guitool = winmerge
+[difftool]
+    prompt = false
+[difftool "kdiff3"]
+    cmd = \"C:/tools/KDiff3/kdiff3.exe\" \"$LOCAL\" \"$REMOTE\"
+[difftool "winmerge"]
+    cmd = ~/winmerge.sh "$LOCAL" "$REMOTE"
+
+[merge]
+    tool = kdiff3
+[mergetool "kdiff3"]
+    path = C:/tools/KDiff3/kdiff3.exe
+
+[push]
+    default = simple
