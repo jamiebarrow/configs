@@ -13,5 +13,6 @@ alias gss='git status -- . ":!node_modules"'
 alias grh='git reset --hard'
 alias gpr='git pull --rebase'
 alias gbd='git branch --merged origin/master | grep -v master | xargs -r -n 1 git branch -D'
+alias times='git reflog --date=iso'
 
 export EDITOR=vim
