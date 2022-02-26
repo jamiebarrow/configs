@@ -1,0 +1,51 @@
+[alias]
+    co = checkout
+    dt = difftool -y -t winmerge
+    dtm = difftool --diff-filter=M -y -t winmerge
+    dts = difftool --cached -y -t winmerge
+    dtsm = difftool --cached --diff-filter=M -y -t winmerge
+    mt = mergetool -y -t kdiff3
+    undo = reset HEAD~1
+
+[core]
+    editor = vim
+
+[diff]
+    guitool = winmerge
+    tool = winmerge
+
+[difftool]
+    prompt = false
+
+[difftool "kdiff3"]
+    cmd = \"C:/Program Files/KDiff3/kdiff3.exe\" \"$LOCAL\" \"$REMOTE\"
+
+[difftool "winmerge"]
+    cmd = ~/winmerge.sh "$LOCAL" "$REMOTE"
+
+[fetch]
+    prune = true
+
+[merge]
+    tool = kdiff3
+
+[mergetool]
+    keepBackup = false
+    prompt = false
+
+[mergetool "kdiff3"]
+    path = C:/Program Files/KDiff3/kdiff3.exe
+
+[mergetool "winmerge"]
+    path = C:/Program Files/WinMerge/WinMergeU.exe
+    cmd = \"C:/Program Files/WinMerge/WinMergeU.exe\" -e -u \"$MERGED\"
+
+[push]
+    # default = simple
+    default = current
+
+[rerere]
+    enabled = true
+
+[user]
+    name = James Barrow
