@@ -1,1 +1,20 @@
 OBSProject.OBSStudio
+
+# -- Starting again -------------------------------------------------------------------------------------------
+# Microsoft.PowerShell
+# 
+# Notepad++.Notepad++
+# Microsoft.VisualStudioCode
+# 
+#-- Don't install these using WinGet since the installer doesn't setup difftool, Windows Terminal profile, etc.
+# Git.Git
+# GitHub.cli
+# 
+# CoreyButler.NVMforWindows
+# Google.Chrome
+# 
+# -- Spotify
+# 9NCBCSZSJRSB
+# 
+# KDE.Krita
+# Python.Python.3.10
