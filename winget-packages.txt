@@ -1,4 +1,5 @@
 OBSProject.OBSStudio
+VideoLAN.VLC
 
 # -- Starting again -------------------------------------------------------------------------------------------
 # Microsoft.PowerShell
