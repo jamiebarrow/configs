@@ -1,5 +1,6 @@
 OBSProject.OBSStudio
 VideoLAN.VLC
+Meltytech.Shotcut
 
 # -- Starting again -------------------------------------------------------------------------------------------
 # Microsoft.PowerShell
