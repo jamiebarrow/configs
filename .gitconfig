@@ -37,8 +37,8 @@
     path = C:/Program Files/KDiff3/kdiff3.exe
 
 [mergetool "winmerge"]
-    path = C:/Program Files/WinMerge/WinMergeU.exe
-    cmd = \"C:/Program Files/WinMerge/WinMergeU.exe\" -e -u \"$MERGED\"
+    path = C:/Users/JamesBarrow/AppData/Local/Programs/WinMerge/WinMergeU.exe
+    cmd = \"C:/Users/JamesBarrow/AppData/Local/Programs/WinMerge/WinMergeU.exe\" -e -u \"$MERGED\"
 
 [push]
     # default = simple
