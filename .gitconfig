@@ -49,3 +49,6 @@
 
 [user]
     name = James Barrow
+
+[init]
+    defaultBranch = main
