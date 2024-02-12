@@ -1,6 +1,12 @@
-OBSProject.OBSStudio
+# Media player
 VideoLAN.VLC
+
+# Screen recording and editing
+OBSProject.OBSStudio
 Meltytech.Shotcut
+
+# Programming tools
+WinGet.WinGet
 
 # -- Starting again -------------------------------------------------------------------------------------------
 # Microsoft.PowerShell
