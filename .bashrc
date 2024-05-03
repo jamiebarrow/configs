@@ -2,7 +2,7 @@ alias cls='clear'
 alias dir='ls -l'
 
 alias ..='cd ..'
-alias l='ls -al'
+alias l='ls -al --color'
 
 alias gcam='git commit -a -m'
 alias gf='git fetch --prune'
