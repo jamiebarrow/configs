@@ -23,6 +23,9 @@
 [difftool "winmerge"]
     cmd = ~/winmerge.sh "$LOCAL" "$REMOTE"
 
+[difftool "code"]
+    cmd = "code --wait --diff $LOCAL $REMOTE"
+
 [fetch]
     prune = true
 
